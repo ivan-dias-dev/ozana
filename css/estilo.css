@@ -1,0 +1,459 @@
+@font-face {
+  font-family: handy;
+  src: url(../fontes/HandyCasualCondensed-Regular.otf);
+  font-family: handy-oblique;
+  src: url(../fontes/HandyCasualCondensed-Oblique.ttf);
+}
+
+* {
+  /* background-attachment: fixed;*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.carousel-inner {
+  height: 45em;
+}
+.margin-top-saldacao {
+  margin-top: 20em;
+}
+
+nav {
+  border-bottom: #ffffff;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-color: #fafafa;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  background-color: bisque;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.zaninha {
+  font-size: 30px;
+  text-align: center;
+  font-family: handy;
+  color: #dc111e;
+}
+
+.espaco {
+  height: 6em;
+}
+
+.imagemcarr {
+  background-image: url(../img/coxi.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+/*-------------------------------------    Botao caixinha   ------------------------------------------------------*/
+.botao {
+  height: 3em;
+  width: 35em;
+  border: none;
+  position: fixed;
+  bottom: 3em;
+}
+.botaomargin {
+  margin-left: 8rem !important;
+}
+
+.botao-item {
+  background-color: #1cc475;
+  bottom: 0px;
+}
+.botaocxis {
+  position: fixed;
+  right: 1em;
+  top: 5em;
+  z-index: 5001;
+}
+
+.botaocoxinha {
+  height: 3em;
+  width: 100%;
+  background-color: rgb(0, 255, 255);
+  border: none;
+}
+
+.div2 {
+  background-color: #dc111e;
+  height: 10em;
+  width: 100%;
+  border: none;
+}
+
+.divpai {
+  background-color: #c2e2c1;
+  height: 3em;
+  width: 100%;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.intput-mini {
+  width: 5em;
+  height: 1.5em;
+}
+
+.input-total {
+  height: 2em;
+  width: 8em;
+}
+
+.carousel {
+  height: 30em;
+}
+
+.na {
+  max-width: 100%;
+  max-height: 30em;
+  background-position: center;
+}
+
+.imgs {
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  background-color: #ffba3a;
+  width: 80%;
+  height: 35em;
+  text-align: center;
+  background-position: bottom;
+}
+.texto_imagem {
+  font-size: 3em;
+  font-family: handy;
+  text-align: center;
+  bottom: 0;
+  top: auto;
+  color: #f0f0f0;
+  font-size: 0.5rem;
+}
+
+.sobre {
+  background-repeat: no-repeat;
+  background-color: #ffefd5;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-position: bottom;
+  padding: 3em;
+  padding-top: 1em;
+}
+.texto_sobre {
+  font-size: 3em;
+  font-family: handy-oblique;
+  text-align: center;
+  bottom: 0;
+  top: auto;
+  color: #f0f0f0;
+}
+
+.imagem_1st {
+  max-width: 80%;
+  align-self: center;
+}
+
+.itens {
+  height: 30em;
+}
+
+.div1 {
+  background-color: bisque;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3em;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.row {
+  --bs-gutter-x: 0rem;
+}
+
+.carousel-indicators {
+  bottom: -277px;
+}
+
+/*--------------------------------cartões----------------------------------------------*/
+.conteiner {
+  position: relative;
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 1080px;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.valor {
+  height: 2em;
+  color: #dc111e;
+  text-align: center;
+}
+
+.card-letras {
+  padding: 1em;
+}
+.card-body {
+  padding: 0;
+  text-align: center;
+}
+.imagem_1st {
+  width: 40em;
+  height: 40em;
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+  flex-direction: row;
+}
+.card-compas {
+  background-color: white;
+  width: 0;
+  height: 100%;
+  right: 0em;
+  z-index: 5000;
+  position: fixed;
+  top: 8.1em;
+  border-radius: 10px;
+  transition: 1s;
+  overflow-y: scroll;
+}
+.table {
+  width: 30%;
+}
+
+.card-product {
+  width: 100%;
+}
+/*--------------------------------botão whats----------------------------------------------*/
+
+.whatsapp {
+  background: #000000;
+  bottom: 25px;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  box-shadow: 2px 2px 12px rgba(22, 124, 60, 0.2);
+  transition: 0.4s;
+  align-items: center;
+  justify-content: center;
+}
+
+.robbu-whatsapp-button {
+  display: flex;
+  position: fixed;
+  background: #000000;
+  bottom: 25px;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  box-shadow: 2px 2px 12px rgba(22, 124, 60, 0.2);
+  transition: 0.4s;
+  align-items: center;
+  justify-content: center;
+}
+
+.rwb-tooltip {
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  padding: 15px;
+  color: #2d2d2d;
+  font-size: 16px;
+  white-space: nowrap;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: 0.4s;
+  pointer-events: none;
+}
+
+.rwb-tooltip:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 85%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 7px 0 7px;
+  border-color: #fff transparent transparent transparent;
+  transition: 0.4s;
+}
+
+.robbu-whatsapp-button {
+  right: 25px;
+}
+
+#robbu-whatsapp-button > img {
+  display: block;
+  width: 34px;
+  height: 34px;
+}
+
+.robbu-whatsapp-button:hover {
+  background: #21bd5c;
+  box-shadow: 3px 3px 12px rgba(14, 81, 39, 0.4);
+}
+
+#robbu-whatsapp-button:hover > .rwb-tooltip {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+#robbu-whatsapp-button:hover > .rwb-tooltip:after {
+  top: 100%;
+  transition-delay: 0.4s;
+}
+/*-----------------------------------------------------------------------------------*/
+.carousel-dark .carousel-caption {
+  color: #ffffff;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: -14.75rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #ffffff;
+  text-align: center;
+}
+.carousel-item {
+  transition: transform 0.6s ease-in-out;
+}
+/*--------------------------------media queryes peq----------------------------------------------*/
+@media (min-width: 0) and (max-width: 400px) {
+  .imgs {
+    background-size: 10em;
+  }
+
+  .texto_imagem {
+    font-size: 1.8em;
+  }
+}
+/*--------------------------------media queryes md ----------------------------------------------*/
+@media (min-width: 400.1px) and (max-width: 600px) {
+  .imgs {
+    background-size: 5em;
+  }
+  .texto_imagem {
+    font-size: 2em;
+  }
+}
+/*--------------------------------media queryes lg----------------------------------------------*/
+@media (min-width: 600.1px) and (max-width: 767px) {
+  .imgs {
+    background-size: 5em;
+  }
+  .texto_imagem {
+    font-size: 2.5em;
+  }
+  .margin-top-saldacao {
+    margin-top: 5em;
+  }
+  .carousel-indicators {
+    bottom: -5px;
+  }
+  .texto_sobre {
+    font-size: 28px;
+  }
+}
+/*--------------------------------media queryes lg----------------------------------------------*/
+@media (min-width: 768px) and (max-width: 992px) {
+  .imgs {
+    background-size: 15em;
+  }
+  .texto_imagem {
+    font-size: 2.8em;
+  }
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 100%;
+    background-color: #000000;
+  }
+  .margin-top-saldacao {
+    margin-top: 10em;
+  }
+  .carousel-caption {
+    font-size: 30px;
+    bottom: -4rem;
+  }
+  .titulo-carrosel {
+    font-size: 42px;
+  }
+  .carousel-indicators {
+    bottom: -150px;
+  }
+  .texto_sobre {
+    font-size: 30px;
+  }
+}
+
+/*--------------------------------media queryes xxlg----------------------------------------------*/
+@media (min-width: 993px) and (max-width: 1200px) {
+  .texto_imagem {
+    font-size: 3em;
+  }
+  .margin-top-saldacao {
+    margin-top: 20em;
+  }
+  .titulo-carrosel {
+    font-size: 42px;
+  }
+  .carousel-caption {
+    font-size: 44px;
+  }
+  .carousel-indicators {
+    bottom: -270px;
+  }
+  .texto_sobre {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 2000px) {
+  .texto_imagem {
+    font-size: 3.5em;
+  }
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 90%;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: 231px;
+  }
+  .titulo-carrosel {
+    font-size: 48px;
+  }
+  .carousel-caption {
+    font-size: 42px;
+  }
+  .carousel-indicators {
+    bottom: -277px;
+  }
+  .texto_sobre {
+    font-size: 40px;
+  }
+}
