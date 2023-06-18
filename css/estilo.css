@@ -415,6 +415,13 @@ html {
   }
 }
 
+.link-footer {
+  text-decoration: none;
+  color: #858585;
+}
+.link-footer:hover {
+  color: #000000;
+}
 /*--------------------------------media queryes xxlg----------------------------------------------*/
 @media (min-width: 993px) and (max-width: 1200px) {
   .texto_imagem {
