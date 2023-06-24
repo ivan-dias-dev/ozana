@@ -10,6 +10,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 16px;
+}
+
+.primeira-div {
+  background-image: url(/img/coxi.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 300px;
 }
 
 .margin-top-saldacao {
@@ -35,7 +44,7 @@ html {
 }
 
 .zaninha {
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   font-family: handy;
   color: #dc111e;
@@ -113,21 +122,18 @@ html {
 
 .imgs {
   background-repeat: no-repeat;
-  border-radius: 30px;
-  background-color: #ffba3a;
-  width: 80%;
-  height: 35em;
+  background-color: #e6cb9e;
+  width: 100%;
+  height: 100%;
   text-align: center;
   background-position: bottom;
 }
 .texto_imagem {
-  font-size: 3em;
-  font-family: handy;
   text-align: center;
   bottom: 0;
   top: auto;
   color: #f0f0f0;
-  font-size: 0.5rem;
+  font-size: 16px;
 }
 
 .sobre {
@@ -141,8 +147,7 @@ html {
   padding-top: 1em;
 }
 .texto_sobre {
-  font-size: 3em;
-  font-family: handy-oblique;
+  font-size: 18px;
   text-align: center;
   bottom: 0;
   top: auto;
@@ -330,7 +335,7 @@ html {
 }
 .titulo-sobre {
   font-family: handy-oblique;
-  font-size: 5em;
+  font-size: 24px;
 }
 /*--------------------------------media queryes peq----------------------------------------------*/
 @media (min-width: 0) and (max-width: 400px) {
@@ -339,29 +344,29 @@ html {
   }
 
   .texto_imagem {
-    font-size: 1.8em;
+    font-size: 14px;
   }
   .texto_sobre {
-    font-size: 1.2em;
+    font-size: 14px;
   }
   .carousel-indicators {
     bottom: -5px;
     background-color: #5bdc11;
   }
   .titulo-sobre {
-    font-size: 3em;
+    font-size: 14px;
   }
 }
 /*--------------------------------media queryes md ----------------------------------------------*/
 @media (min-width: 400.1px) and (max-width: 600px) {
   .imgs {
-    background-size: 5em;
+    background-size: 100%;
   }
   .texto_imagem {
-    font-size: 2em;
+    font-size: 15px;
   }
   .texto_sobre {
-    font-size: 18px;
+    font-size: 15px;
   }
   .carousel-indicators {
     bottom: -5px;
@@ -371,10 +376,10 @@ html {
 /*--------------------------------media queryes lg----------------------------------------------*/
 @media (min-width: 600.1px) and (max-width: 767px) {
   .imgs {
-    background-size: 5em;
+    background-size: 100%;
   }
   .texto_imagem {
-    font-size: 2.5em;
+    font-size: 16px;
   }
 
   .carousel-indicators {
@@ -382,7 +387,7 @@ html {
     background-color: #dc111e;
   }
   .texto_sobre {
-    font-size: 28px;
+    font-size: 16px;
   }
 }
 /*--------------------------------media queryes lg----------------------------------------------*/
@@ -391,17 +396,16 @@ html {
     background-size: 15em;
   }
   .texto_imagem {
-    font-size: 2.8em;
+    font-size: 16px;
   }
   .container,
   .container-md,
   .container-sm {
     max-width: 100%;
-    background-color: #000000;
   }
 
   .carousel-caption {
-    font-size: 30px;
+    font-size: 16px;
     bottom: -4rem;
   }
   .titulo-carrosel {
@@ -411,7 +415,7 @@ html {
     bottom: -150px;
   }
   .texto_sobre {
-    font-size: 30px;
+    font-size: 16px;
   }
 }
 
@@ -425,26 +429,26 @@ html {
 /*--------------------------------media queryes xxlg----------------------------------------------*/
 @media (min-width: 993px) and (max-width: 1200px) {
   .texto_imagem {
-    font-size: 3em;
+    font-size: 16px;
   }
 
   .titulo-carrosel {
-    font-size: 42px;
+    font-size: 16px;
   }
   .carousel-caption {
-    font-size: 44px;
+    font-size: 16px;
   }
   .carousel-indicators {
     bottom: -270px;
   }
   .texto_sobre {
-    font-size: 35px;
+    font-size: 16px;
   }
 }
 
 @media (min-width: 1201px) and (max-width: 2000px) {
   .texto_imagem {
-    font-size: 3.5em;
+    font-size: 16px;
   }
   .container,
   .container-lg,
@@ -459,15 +463,15 @@ html {
     top: 231px;
   }
   .titulo-carrosel {
-    font-size: 48px;
+    font-size: 16px;
   }
   .carousel-caption {
-    font-size: 42px;
+    font-size: 16px;
   }
   .carousel-indicators {
     bottom: -277px;
   }
   .texto_sobre {
-    font-size: 40px;
+    font-size: 16px;
   }
 }
