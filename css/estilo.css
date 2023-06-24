@@ -338,21 +338,26 @@ html {
   font-size: 24px;
 }
 /*--------------------------------media queryes peq----------------------------------------------*/
+
+.padding-extra {
+  color: #000000;
+  padding: 0 3em 0 3em;
+}
+
 @media (min-width: 0) and (max-width: 400px) {
   .imgs {
     background-size: 10em;
   }
-
+  .padding-extra {
+    padding: 0 0 0 0;
+  }
   .texto_imagem {
     font-size: 14px;
   }
   .texto_sobre {
     font-size: 14px;
   }
-  .carousel-indicators {
-    bottom: -5px;
-    background-color: #5bdc11;
-  }
+
   .titulo-sobre {
     font-size: 14px;
   }
@@ -448,7 +453,7 @@ html {
 
 @media (min-width: 1201px) and (max-width: 2000px) {
   .texto_imagem {
-    font-size: 16px;
+    font-size: 18px;
   }
   .container,
   .container-lg,
@@ -458,20 +463,8 @@ html {
   .container-xxl {
     max-width: 90%;
   }
-  .carousel-control-next,
-  .carousel-control-prev {
-    top: 231px;
-  }
-  .titulo-carrosel {
-    font-size: 16px;
-  }
-  .carousel-caption {
-    font-size: 16px;
-  }
-  .carousel-indicators {
-    bottom: -277px;
-  }
+
   .texto_sobre {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
