@@ -373,9 +373,9 @@ html {
   .texto_sobre {
     font-size: 15px;
   }
-  .carousel-indicators {
-    bottom: -5px;
-    background-color: #1136dc;
+
+  .padding-extra {
+    padding: 0 0 0 0;
   }
 }
 /*--------------------------------media queryes lg----------------------------------------------*/
@@ -387,9 +387,8 @@ html {
     font-size: 16px;
   }
 
-  .carousel-indicators {
-    bottom: -5px;
-    background-color: #dc111e;
+  .padding-extra {
+    padding: 0;
   }
   .texto_sobre {
     font-size: 16px;
@@ -409,9 +408,8 @@ html {
     max-width: 100%;
   }
 
-  .carousel-caption {
-    font-size: 16px;
-    bottom: -4rem;
+  .padding-extra {
+    padding: 0 0 0 0;
   }
   .titulo-carrosel {
     font-size: 42px;
