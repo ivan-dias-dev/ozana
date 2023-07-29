@@ -67,11 +67,11 @@ html {
 }
 /*-------------------------------------    Botao caixinha   ------------------------------------------------------*/
 .botao {
-  height: 3em;
-  width: 35em;
   border: none;
   position: fixed;
-  top: 6em;
+  bottom: 0em;
+  margin-left: 6rem !important;
+  text-align: center;
 }
 .botaomargin {
   margin-left: 8rem !important;
@@ -200,7 +200,7 @@ html {
 
 .valor {
   height: 2em;
-  color: #dc111e;
+  color: #1b201c;
   text-align: center;
 }
 
